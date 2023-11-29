@@ -48,7 +48,7 @@ h1 {
 .nav-back:before {
   content: "";
   display: block;
-  background: url("/keyboard_backspace.svg");
+  background: url("/icons/keyboard_backspace.svg");
   width: 24px;
   height: 24px;
   margin: 8px 10px 0 0;
