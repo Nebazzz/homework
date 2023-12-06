@@ -1,0 +1,41 @@
+.shoes {
+  padding-top: 80px ;
+  padding-bottom: 150px;
+}
+
+.shoes__title {
+  font-family: "lato bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 65px;
+  margin-bottom: 40px;
+}
+
+.shoes__text:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+
+.author {
+  text-align: right;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.naviagation::before {
+  content: "";
+  display: block;
+  background: url("/icons/keyboard_backspace.svg");
+  width: 24px;
+  height: 24px;
+  margin: 8px 10px 0 0;
+  float: left;
+}
+
+.navigation__link {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.8px;
+  color: inherit;
+  text-decoration: none;
+}
