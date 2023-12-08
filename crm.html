@@ -8,9 +8,9 @@
 </head>
 <body>
   <div class="container">
-    <img class="close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-    <path d="M2 22L22 2" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
-    </img>
+    <div class="psevdo">
+      <img class="close">
+    </div>
     <h1 class="page__title">Добавить товар</h1>
     <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
         <div class="form__style">
@@ -21,7 +21,7 @@
       
             <fieldset class="form__group">
               <label class="form__label">Категория</label>
-              <select class="form__input-item" name="Category">
+              <select class="select form__input-item" name="Category">
                 <option value="" label=""></option>
                 <option value="" label=""></option>
                 <option value="" label=""></option>
@@ -31,7 +31,7 @@
   
           <fieldset class="form__group">
             <label class="form__label">Единицы измерения</label>
-            <select class="form__input-item" name="units">
+            <select class="select form__input-item" name="units">
               <option value="" label=""></option>
               <option value="" label=""></option>
               <option value="" label=""></option>
@@ -49,7 +49,7 @@
   
           <fieldset class="form__group">
             <label class="form__label">Описание</label>
-              <textarea class="form__input-item" name="description" cols="25" rows="3" required>
+              <textarea class="textarea form__input-item" name="description" cols="25" rows="3" required>
               </textarea>
           </fieldset>
   
