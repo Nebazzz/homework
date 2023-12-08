@@ -1,5 +1,5 @@
 .page__title {
-  color: tomato;
+  color: #6E6893;
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-style: normal;
@@ -14,9 +14,9 @@
   .form {
     max-width: 792px;
     max-height: 823px;
-    background-color: #e21717;
+    /* background-color: #e21717; */
     margin: 0 auto;
-    padding: 43px 106px 28px;
+    padding: 43px 106px 99px;
   }
 
   .form__style {
@@ -58,6 +58,8 @@
 }
 
 .form__input-checkbox {
+  background-image: url("../icons/Group\ 91.svg");
+  background-size: cover;
   width: 40px;
   height: 40px;
   float: left;
@@ -78,7 +80,13 @@
 
 .button {
   background-color: #6D5BD0;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-transform: uppercase;
   border-radius: 6px;
   width: 200px;
   height: 39px;
+  float: right;
+  margin-right: 32px;
+  margin-top: 30px;
 }
