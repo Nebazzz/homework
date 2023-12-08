@@ -12,59 +12,59 @@
     <path d="M2 22L22 2" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
     </svg>
     <h1 class="page__title">Добавить товар</h1>
-
     <form class="form" action="https://jsonplaceholder.typicode.com/posts" method="post">
-
-        <fieldset class="form__group">
-          <label class="form__label">Наименование</label>
-            <input class="form__input-item" type="text" name="name" required>
-        </fieldset>
-    
+        <div class="form__style">
           <fieldset class="form__group">
-            <label class="form__label">Категория</label>
-            <select class="form__input-item" name="Category">
+            <label class="form__label">Наименование</label>
+              <input class="form__input-item" type="text" name="name" required>
+          </fieldset>
+      
+            <fieldset class="form__group">
+              <label class="form__label">Категория</label>
+              <select class="form__input-item" name="Category">
+                <option value="" label=""></option>
+                <option value="" label=""></option>
+                <option value="" label=""></option>
+                <option value="" label=""></option>
+              </select>
+            </fieldset>
+  
+          <fieldset class="form__group">
+            <label class="form__label">Единицы измерения</label>
+            <select class="form__input-item" name="units">
               <option value="" label=""></option>
               <option value="" label=""></option>
               <option value="" label=""></option>
               <option value="" label=""></option>
             </select>
           </fieldset>
-
-        <fieldset class="form__group">
-          <label class="form__label">Единицы измерения</label>
-          <select class="form__input-item" name="units">
-            <option value="" label=""></option>
-            <option value="" label=""></option>
-            <option value="" label=""></option>
-            <option value="" label=""></option>
-          </select>
-        </fieldset>
-
-        <fieldset class="form__group ">
-          <label class="form__label">Дисконт</label>
-          <input class="form__input-checkbox" type="checkbox">
-          <div class="form__input-style">
-            <input class="form__input-number" type="number" disabled>
+  
+          <fieldset class="form__group ">
+            <label class="form__label">Дисконт</label>
+            <input class="form__input-checkbox" type="checkbox">
+            <div class="form__input-style">
+              <input class="form__input-number" type="number" disabled>
+            </div>
+          </fieldset>
+  
+          <fieldset class="form__group">
+            <label class="form__label">Описание</label>
+              <textarea class="form__input-item" name="description" cols="25" rows="3" required>
+              </textarea>
+          </fieldset>
+  
+          <fieldset class="form__group">
+            <label class="form__label">Количество</label>
+              <input class="form__input-item" type="number" name="count" required>
+          </fieldset>
+  
+          <fieldset class="form__group">
+            <label class="form__label">Цена</label>
+              <input class="form__input-item" type="number" name="price" required>
+            </fieldset>
           </div>
-        </fieldset>
-
-        <fieldset class="form__group">
-          <label class="form__label">Описание</label>
-            <textarea class="form__input-item" name="description" cols="25" rows="3" required>
-            </textarea>
-        </fieldset>
-
-        <fieldset class="form__group">
-          <label class="form__label">Количество</label>
-            <input class="form__input-item" type="number" name="count" required>
-        </fieldset>
-
-        <fieldset class="form__group">
-          <label class="form__label">Цена</label>
-            <input class="form__input-item" type="number" name="price" required>
-        </fieldset>
-    </form>
-      <input class="button" type="submit" value="Добавить товар">
+          <input class="button" type="submit" value="Добавить товар">
+        </form>
   </div>
 </body>
 </html>
