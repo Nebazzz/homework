@@ -149,7 +149,7 @@
 }
 
 .form__input-number {
-  background-color: #F4F2FF;
+
   border-radius: 6px;
   width: 100%;
   max-width: 474px;
@@ -168,7 +168,7 @@
   float: right;
 }
 
-#check:checked ~ #discont-numb:enabled {
+.discount__block :checked ~ #discont-numb {
   background-color: #F4F2FF;
 }
 
