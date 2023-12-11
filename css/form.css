@@ -10,7 +10,7 @@
   appearance: none;
 }
 
-.psevdo {
+.psevdo-block {
   position: relative;
   display: inline-block;
   width: 100%;
@@ -18,7 +18,7 @@
   margin-bottom: 12px;
 }
 
-.close {
+.button__close {
   position: absolute;
   background-image: url("../icons/Group85.svg");
   width: 20px;
@@ -149,6 +149,16 @@
 }
 
 .form__input-number {
+  background-color: #F4F2FF;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 474px;
+  height: 40px;
+  border: none;
+  float: right;
+}
+
+.form__input-number:disabled {
   background-color: #EEE;
   border-radius: 6px;
   width: 100%;
@@ -156,6 +166,10 @@
   height: 40px;
   border: none;
   float: right;
+}
+
+#check:checked ~ #discont-numb:enabled {
+  background-color: #F4F2FF;
 }
 
 .button {
