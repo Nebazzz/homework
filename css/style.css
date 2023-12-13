@@ -102,9 +102,34 @@ iframe {
 Чтобы контент не прижимался к краям экрана
 */
 
-.modal {
-  max-width: 792px;
-  max-height: 823px;
-  margin: 0 auto;
-  background-color: #F2F0F9;
+.overlay {
+  height: 100vh;
+  background-color: #b1b1b1;
 }
+
+.modal {
+  position: absolute;
+  max-width: 792px;
+  height: 823px;
+  background-color: #F2F0F9;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  padding: 0 106px 0;
+}
+
+
+.page__title {
+  color: #6E6893;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 43px;
+  }

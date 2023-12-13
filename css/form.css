@@ -15,7 +15,7 @@
   display: inline-block;
   width: 100%;
   height: 20px;
-  margin-bottom: 12px;
+  margin-top: 12px;
 }
 
 .button__close {
@@ -27,29 +27,15 @@
   background-repeat: no-repeat;
   border: none;
   top: 50%;
-  right: 30px;
+  right: -76px;
 
 }
 
-.page__title {
-  color: #6E6893;
-  font-family: "Inter", sans-serif;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  letter-spacing: 2.4px;
-  text-transform: uppercase;
-  margin: 0;
-  padding-left: 106px;
-  }
-
   .form {
-    /* background-color: #e21717; */
-    max-width: 792px;
-    max-height: 823px;
-    margin: 0 auto;
-    padding: 43px 106px 99px;
+    max-width: 580px;
+    min-height: 620px;
+    background-color: #fff;
+    border-radius: 10px;
   }
 
   .form__style {
@@ -149,16 +135,6 @@
 }
 
 .form__input-number {
-
-  border-radius: 6px;
-  width: 100%;
-  max-width: 474px;
-  height: 40px;
-  border: none;
-  float: right;
-}
-
-.form__input-number:disabled {
   background-color: #EEE;
   border-radius: 6px;
   width: 100%;
@@ -168,7 +144,17 @@
   float: right;
 }
 
-.discount__block :checked ~ #discont-numb {
+/* .form__input-number :disabled {
+  background-color: #EEE;
+  border-radius: 6px;
+  width: 100%;
+  max-width: 474px;
+  height: 40px;
+  border: none;
+  float: right;
+} */
+
+.discount__block :checked ~ .form__input-number {
   background-color: #F4F2FF;
 }
 
