@@ -11,70 +11,68 @@
 <body class="page">
   <div class="overlay">
     <div class="modal">
-        <div class="modal__block-style">
-          <button class="modal__button-close">
-            <svg class="modal__button-close-img" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M2 2L22 22" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
-              <path d="M2 22L22 2" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
-            </svg>
-          </button>
-        </div>
-        <h1 class="page__title">Добавить товар</h1>
-        <form class="form" action="https://jsonplaceholder.typicode.com/posts" id="product-window" method="post">
+      <button class="modal__button-close">
+        <svg class="modal__button-close-img" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2 2L22 22" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
+          <path d="M2 22L22 2" stroke="#6E6893" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+      </button>
+      <h1 class="page__title">Добавить товар</h1>
+      <form class="form" action="https://jsonplaceholder.typicode.com/posts" id="product-window" method="post">
 
-            <fieldset class="form__style">
-              <fieldset class="form__group">
-                <label class="form__label">Наименование</label>
-                  <input class="form__input-item" type="text" name="name" id="product-title" required>
-              </fieldset>
+        <fieldset class="form__style">
+          <fieldset class="form__group">
+            <label class="form__label">Наименование</label>
+              <input class="form__input-item" type="text" name="name" id="product-title" required>
+          </fieldset>
 
-                <fieldset class="form__group">
-                  <label class="form__label">Категория</label>
-                  <select class="select form__input-item" name="Category" id="cat">
-                    <!-- <option value="" label=""></option>
-                    <option value="" label=""></option>
-                    <option value="" label=""></option>
-                    <option value="" label=""></option> -->
-                  </select>
-                </fieldset>
+            <fieldset class="form__group">
+              <label class="form__label">Категория</label>
+              <select class="select form__input-item" name="Category" id="cat">
+                <!-- <option value="" label=""></option>
+                <option value="" label=""></option>
+                <option value="" label=""></option>
+                <option value="" label=""></option> -->
+              </select>
+            </fieldset>
 
-              <fieldset class="form__group">
-                <label class="form__label">Единицы измерения</label>
-                <select class="select form__input-item" name="units" id="unit">
-                  <!-- <option value="" label=""></option>
-                  <option value="" label=""></option>
-                  <option value="" label=""></option>
-                  <option value="" label=""></option> -->
-                </select>
-              </fieldset>
+          <fieldset class="form__group">
+            <label class="form__label">Единицы измерения</label>
+            <select class="select form__input-item" name="units" id="unit">
+              <!-- <option value="" label=""></option>
+              <option value="" label=""></option>
+              <option value="" label=""></option>
+              <option value="" label=""></option> -->
+            </select>
+          </fieldset>
 
-              <fieldset class="form__group">
-                <label class="form__label">Дисконт</label>
-                  <div class="form__input-style-block">
-                    <input class="form__input-checkbox" type="checkbox" name="discont" id="ckeck">
-                    <input class="form__input-number" type="number" name="discont-value" id="discont-numb" disabled>
-                  </div>
-              </fieldset>
+          <fieldset class="form__group">
+            <label class="form__label">Дисконт</label>
+              <div class="form__input-style-block">
+                <input class="form__input-checkbox" type="checkbox" name="discont" id="ckeck">
+                <input class="form__input-number" type="number" name="discont-value" id="discont-numb" disabled>
+              </div>
+          </fieldset>
 
-              <fieldset class="form__group">
-                <label class="form__label">Описание</label>
-                  <textarea class="textarea form__input-item" name="description" cols="25" rows="3" id="description" required>
-                  </textarea>
-              </fieldset>
+          <fieldset class="form__group">
+            <label class="form__label">Описание</label>
+              <textarea class="textarea form__input-item" name="description" cols="25" rows="3" id="description" required>
+              </textarea>
+          </fieldset>
 
-              <fieldset class="form__group">
-                <label class="form__label">Количество</label>
-                  <input class="form__input-item" type="number" name="count" id="qty" required>
-              </fieldset>
+          <fieldset class="form__group">
+            <label class="form__label">Количество</label>
+              <input class="form__input-item" type="number" name="count" id="qty" required>
+          </fieldset>
 
-              <fieldset class="form__group">
-                <label class="form__label">Цена</label>
-                  <input class="form__input-item" type="number" name="price" id="price" required>
-                </fieldset>
-              </fieldset>
-              <input class="form__product-button" type="submit" value="Добавить товар">
-              
-            </form>
+          <fieldset class="form__group">
+            <label class="form__label">Цена</label>
+              <input class="form__input-item" type="number" name="price" id="price" required>
+            </fieldset>
+          </fieldset>
+          <input class="form__product-button" type="submit" value="Добавить товар">
+            
+      </form>
     </div>
   </div>
 </body>
