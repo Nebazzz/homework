@@ -1,3 +1,10 @@
+.header__navigation-company {
+  display: flex;
+  align-items: center;
+  gap: 19px;
+}
+
+
 .header__navigation-tm {
   display: flex;
   flex-direction: column;
@@ -5,6 +12,7 @@
   height: 32px;
   font-size: 12px;
   font-weight: 500;
+  line-height: 140.6%;
 }
 
 .header__navigation-author {
