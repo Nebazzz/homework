@@ -12,8 +12,10 @@
   <title>Рыбатекст</title>
 </head>
 <body>
-  <header>
-      <div class="header__container">
+  <header class="header">
+      <div class="container">
+        <div class="header__background">
+        </div>
         <div class="header__navigation">
           <div class="header__navigation-logo">
             <p class="header__navigation-logo-text">Logo</p>
@@ -34,7 +36,7 @@
   </header>
   <main>
     <section class="advantages">
-      <div class="container">
+      <div class="advantages__container">
         <h2 class="advantages__title">Уникальный заголовок для преимущества компании</h2>
         <h3 class="advantages__subtitle">О нас</h3>
         <p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
@@ -64,6 +66,32 @@
             </p>
           </li>
         </ul>
+      </div>
+    </section>
+    <section class="promo">
+      <div class="container">
+        <div class="promo__background">
+        </div>
+        <div class="promo__content">
+          <h2 class="promo__title">Остались вопросы?</h2>
+          <form class="promo__form">
+          <legend class="promo__form-legend">Оставьте номер телефона, и мы перезвоним вам
+          </legend>
+            <ul class="promo__form-list">
+              <li class="promo__form-item">
+                <input type="text" class="promo__form-input" placeholder="Ваше имя">
+              </li>
+              <li class="promo__form-item">
+                <input type="tel" class="promo__form-input" placeholder="Телефон">
+              </li>
+              <li class="promo__form-item">
+                <input type="email" class="promo__form-input" placeholder="E-mail">
+              </li>
+            </ul>
+            <button type="button" class="promo__form-button">позвоните мне
+            </button>
+          </form>
+        </div>
       </div>
     </section>
   </main>
