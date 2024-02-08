@@ -1,9 +1,9 @@
 .header__container {
   position: relative;
   z-index: -1;
-  max-width: 1600px;
+  max-width: 1660px;
   margin: 0 auto;
-  padding: 0 0 70px;
+  padding: 0 30px 70px;
   background-image: url("../images/stag-office-mockup.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,14 +23,14 @@
   display: flex;
   width: 68px;
   height: 68px;
-  background-color: #15a9cb;
+  background-color: var(--style-color);
   border-radius: 50%;
   justify-content: center;
     align-items: center;
 }
 
 .header__navigation-logo-text {
-  color: #FFFFFF;
+  color: var(--main-color);
   font-family: "Pacifico", sans-serif;
   font-size: 25.16px;
 }
@@ -86,7 +86,7 @@
   align-items: center;
   width: 200px;
   height: 48px;
-  background-color: #15a9cb;
+  background-color: var(--style-color);
   border-radius: 50px;
 }
 
