@@ -1,11 +1,11 @@
-.header__navigation-company {
+.navigation-company {
   display: flex;
   align-items: center;
   gap: 19px;
 }
 
 
-.header__navigation-tm {
+.navigation-tm {
   display: flex;
   flex-direction: column;
   width: 127px;
@@ -15,10 +15,15 @@
   line-height: 140.6%;
 }
 
-.header__navigation-author {
-  display: block;
+.navigation-author {
   font-size: 12px;
   font-weight: 500;
   width: 171px;
   height: 17px;
+}
+
+.navigation-phone-uderline {
+  background-color: #FFFFFF;
+  height: 2px;
+  width: 160px;
 }
