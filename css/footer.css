@@ -1,0 +1,16 @@
+.header__navigation-tm {
+  display: flex;
+  flex-direction: column;
+  width: 127px;
+  height: 32px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.header__navigation-author {
+  display: block;
+  font-size: 12px;
+  font-weight: 500;
+  width: 171px;
+  height: 17px;
+}
