@@ -71,6 +71,7 @@ input::placeholder {
   color: var(--main-color);
   background-color: var(--style-color);
   border-radius: 50px;
+  cursor: pointer;
 }
 
 .promo__agree-link {
