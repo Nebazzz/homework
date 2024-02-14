@@ -42,6 +42,14 @@
   font-size: 25.16px;
 }
 
+.navigation-mobile-phone {
+  display: none;
+}
+
+.navigation-mobile-phone-img {
+  display: none;
+}
+
 .navigation-phone {
   display: flex;
   flex-direction: column;
@@ -184,10 +192,6 @@
 @media (max-width: 660px) {
   .navigation {
     padding: 15px 15px 0;
-  }
-
-  .navigation:last-child {
-    padding: 25px 15px;
   }
 
   .navigation-logo {

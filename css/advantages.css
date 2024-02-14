@@ -99,51 +99,110 @@
 }
 
 @media (max-width: 1200px) {
-  .advantages__container {
-  max-width: 1082px;
+    .advantages__container {
+    max-width: 1082px;
+    }
+
+    .advantages__title {
+    margin: 0 auto 23px;
+    font-size: 32px;
   }
 
+  .advantages__subtitle {
+    margin: 0 0 33px;
+    font-size: 20px;
+  }
+
+  .advantages__subtitle::before {
+    width: 40px;
+    height: 2px;
+    left: 77px;
+  }
+
+  .advantages__subtitle::after {
+    width: 40px;
+    height: 2px;
+    right: 77px;
+  }
+
+  .advantages__text {
+    max-width: 666px;
+    font-size: 16px;
+  }
+
+  .advantages__items {
+    gap: 26px;
+    width: 180px;
+    height: 182px;
+  }
+
+  .advantages__items-ring {
+    width: 104px;
+    height: 104px;
+  }
+
+  .advantages__items-text {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 660px) {
+  .advantages__container {
+    max-width: 320px;
+    padding: 30px 15px 60px;
+  }
+  
   .advantages__title {
-  margin: 0 auto 23px;
-  font-size: 32px;
+    margin: 0 auto 25px;
+    font-size: 15px;
+  }
+  
+  .advantages__subtitle {
+    margin: 0 0 26px;
+    font-size: 16px;
+  }
+  
+  .advantages__subtitle::before {
+    width: 19px;
+    height: 1px;
+    left: 64px;
+  }
+  
+  .advantages__subtitle::after {
+    width: 19px;
+    height: 1px;
+    right: 64px;
+  }
+  
+  .advantages__text {
+    max-width: 320px;
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+  
+  .advantages__list {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  
+  .advantages__items {
+    gap: 26px;
+    width: 166px;
+    height: 182px;
+  }
+  
+  .advantages__items::after {
+    font-size: 52px;
+  }
+  
+  .advantages__items-ring {
+    width: 104px;
+    height: 104px;
+  }
+  
+  .advantages__items-text {
+    font-size: 18px;
+  }
 }
-
-.advantages__subtitle {
-  margin: 0 0 33px;
-  font-size: 20px;
-}
-
-.advantages__subtitle::before {
-  width: 40px;
-  height: 2px;
-  left: 77px;
-}
-
-.advantages__subtitle::after {
-  width: 40px;
-  height: 2px;
-  right: 77px;
-}
-
-.advantages__text {
-  max-width: 666px;
-  font-size: 16px;
-}
-
-.advantages__items {
-  gap: 26px;
-  width: 180px;
-  height: 182px;
-}
-
-.advantages__items-ring {
-  width: 104px;
-  height: 104px;
-}
-
-.advantages__items-text {
-  font-size: 18px;
-}
-}
-
 
