@@ -77,3 +77,37 @@ input::placeholder {
 .promo__agree-link {
   color: #4A76A8;
 }
+
+@media (max-width: 1200px) {
+  .promo__content {
+    max-width: 540px;
+    padding: 70px 0;
+  }
+
+  .promo__title {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .promo__form-legend {
+    font-size: 20px;
+  }
+
+  .promo__form-list {
+    gap: 20px;
+  }
+
+  .promo__form-input {
+    width: 377px;
+    height: 39px;
+    padding: 8px 0 8px 23px;
+  }
+
+  input::placeholder {
+    font-size: 20px;
+  }
+
+  .promo__agree {
+    font-size: 17px;
+  }
+}
