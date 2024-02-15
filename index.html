@@ -9,6 +9,19 @@
   <link rel="preload" href="fonts/roboto-v30-cyrillic_latin-900.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="fonts/pacifico-v22-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="index.css">
+  <script>
+      let currentIndex = 0;
+const slides = document.querySelectorAll('.advantages__items');
+const slideInterval = 3000;
+ 
+function changeSlide() {
+  slides[currentIndex].style.opacity = 0;
+  currentIndex = (currentIndex + 1) % slides.length;
+  slides[currentIndex].style.opacity = 1;
+}
+ 
+setInterval(changeSlide, slideInterval);
+  </script>
   <title>Рыбатекст</title>
 </head>
 <body>
@@ -45,32 +58,32 @@
         <h2 class="advantages__title" id="advantage">Уникальный заголовок для преимущества компании</h2>
         <h3 class="advantages__subtitle">О нас</h3>
         <p class="advantages__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
-        <ul class="advantages__list">
-          <li class="advantages__items">
-            <div class="advantages__items-ring">
-            </div>
-            <p class="advantages__items-text">Первое целевое преимущество
-            </p>
-          </li>
-          <li class="advantages__items">
-            <div class="advantages__items-ring">
-            </div>
-            <p class="advantages__items-text">Второе целевое преимущество
-            </p>
-          </li>
-          <li class="advantages__items">
-            <div class="advantages__items-ring">
-            </div>
-            <p class="advantages__items-text">Третье целевое преимущество
-            </p>
-          </li>
-          <li class="advantages__items">
-            <div class="advantages__items-ring">
-            </div>
-            <p class="advantages__items-text">Четвертое целевое преимущество
-            </p>
-          </li>
-        </ul>
+          <ul class="advantages__list">
+            <li class="advantages__items">
+              <div class="advantages__items-ring">
+              </div>
+              <p class="advantages__items-text">Первое целевое преимущество
+              </p>
+            </li>
+            <li class="advantages__items">
+              <div class="advantages__items-ring">
+              </div>
+              <p class="advantages__items-text">Второе целевое преимущество
+              </p>
+            </li>
+            <li class="advantages__items">
+              <div class="advantages__items-ring">
+              </div>
+              <p class="advantages__items-text">Третье целевое преимущество
+              </p>
+            </li>
+            <li class="advantages__items">
+              <div class="advantages__items-ring">
+              </div>
+              <p class="advantages__items-text">Четвертое целевое преимущество
+              </p>
+            </li>
+          </ul>
       </div>
     </section>
     <section class="promo">

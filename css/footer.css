@@ -21,6 +21,14 @@
   height: 17px;
 }
 
+.author {
+  display: none;
+}
+
+.author__text {
+  display: none;
+}
+
 @media (max-width: 1200px) {
   .navigation-tm {
     height: 31px;
@@ -47,12 +55,14 @@
 }
 
   .author {
+    display: block;
     padding: 15px 80px;
     margin: 0 auto;
     background-color: #2A2C3F;
   }
 
   .author__text {
+    display: block;
     font-size: 12px;
     font-weight: 500;
     line-height: 140.6%;
