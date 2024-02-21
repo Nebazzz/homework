@@ -1,11 +1,11 @@
 
-/* .navigation:last-child {
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.footer {
+  background-color: rgba(47,50,75);
+}
+
+.navigation-footer {
   padding: 45px 0;
-} */
+}
 
 .navigation-company {
   display: flex;
