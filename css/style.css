@@ -91,9 +91,6 @@ iframe {
 */
 
 .container {
-  /* position: relative;
-  z-index: 1;
-  background-color: #2F324B; */
   max-width: 1600px;
   padding: 0 200px;
   margin: 0 auto;
@@ -101,11 +98,16 @@ iframe {
 
 @media (max-width: 1200px) {
   .container {
-    /* position: relative;
-    z-index: 1;
-    background-color: #2F324B; */
     max-width: 1024px;
     padding: 0 30px;
     margin: 0 auto;
   }
+}
+
+  @media (max-width: 742px) {
+    .container {
+      max-width: 320px;
+      padding: 0 15px;
+      margin: 0 auto;
+    }
 }
