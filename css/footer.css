@@ -27,6 +27,7 @@
   font-weight: 500;
   width: 171px;
   height: 17px;
+  letter-spacing: 0.4px;
 }
 
 .author {
@@ -38,14 +39,23 @@
 }
 
 @media (max-width: 1200px) {
+  .navigation-footer {
+    padding: 39px 0;
+}
+
   .navigation-tm {
     height: 31px;
   }
+
+  .navigation-author {
+    width: 192px;
+
+}
 }
 
 @media (max-width: 742px) {
   .footer{
-    padding: 25px 0 0;
+    padding: 23px 0 0;
   }
 
   .navigation-footer {
