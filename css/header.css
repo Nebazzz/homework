@@ -52,13 +52,14 @@
   display: block;
   height: 30px;
   font-size: 23.85px;
+  margin-bottom: 3px;
 }
 
 .navigation-phone-text {
   display: block;
   font-size: 16px;
-  border-bottom: 1px solid;
-  padding-top: 3px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .description {
