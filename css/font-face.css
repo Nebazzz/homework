@@ -1,29 +1,11 @@
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), local("Roboto sans-serif"), url("../fonts/roboto-v30-cyrillic_latin-regular.woff2") format("woff2");
+  font-family: "Lato";
+  src: local("Lato"), local("Lato sans-serif"), url("../fonts/lato-v24-latin-regular.woff2") format("woff2");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), local("Roboto sans-serif"), url("../fonts/roboto-v30-cyrillic_latin-500.woff2") format("woff2");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), local("Roboto sans-serif"), url("../fonts/roboto-v30-cyrillic_latin-700.woff2") format("woff2");
+  font-family: "Lato";
+  src: local("Lato"), local("Lato sans-serif"), url("../fonts/lato-v24-latin-700.woff2") format("woff2");
   font-weight: 700;
-}
-
-@font-face {
-  font-family: "Roboto";
-  src: local("Roboto"), local("Roboto sans-serif"), url("../fonts/roboto-v30-cyrillic_latin-900.woff2") format("woff2");
-  font-weight: 900;
-}
-
-@font-face {
-  font-family: "Pacifico";
-  src: local("Pacifico"), local("Pacifico sans-serif"), url("../fonts/pacifico-v22-cyrillic_latin-regular.woff2") format("woff2");
-  font-weight: 400;
 }
