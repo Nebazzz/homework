@@ -12,8 +12,8 @@ html {
 body {
   position: relative;
   overflow-x: hidden;
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -25,7 +25,7 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
   color: #FFFFFF;
-  background-color: #F9F9F9;
+  background-color: # ;
 }
 
 img,
@@ -94,6 +94,11 @@ iframe {
   max-width: 1920px;
   padding: 0 75px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 
+  min-content
+  1fr
+  min-content;
 }
 
 @media (max-width: 1200px) {
