@@ -10,17 +10,27 @@
 .header__nav {
   display: grid;
   grid-template-columns: 151px 757px 69px 63px 82px;
+  grid-template-rows: min-content;
 }
 
 .header__nav-menu {
-  display: block;
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 10px;
+  align-items:center;
   width: 151px;
   height: 54px;
   background-color: #3670C7;
   border-radius: 10px;
   font-size: 22px;
   line-height: 150%;
-  
+}
+
+.header__nav-menu::before {
+  content: url("../icons/menu_icon.svg");
+  display: grid;
+  align-items:center;
+  justify-items: end;
 }
 
 .header__nav-search {
@@ -45,4 +55,9 @@
   background-color: #EFEFEF;
   border-top-right-radius: 30px;
   border-bottom-right-radius: 30px;
+}
+
+.header__nav-link {
+  font-size: 16px;
+  color: #2D2D2D;
 }
