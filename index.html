@@ -11,31 +11,61 @@
 <body>
   <header class="header">
     <div class="container">
-      <a href="#" class="header__logo">
-        <img src="images/logo.png" alt="Логотип компании">
-      </a>
-      <nav class="header__nav">
-        <a href="#" class="header__nav-menu">Меню
+      <div class="header__grid">
+        <a href="#" class="header__logo">
+          <img src="images/logo.png" class="header__logo-img" alt="Логотип компании">
         </a>
-        <form class="header__nav-search">
-          <input type="text" class="header__nav-search-input" placeholder="Я ищу...">
-          <button type="submit" class="header__nav-search-button">
-            <img src="icons/search_icon.png">
-          </button>
-        </form>
-        <a href="#" class="header__nav-link header__nav-profile">Профиль
-          <img src="icons/profile_icon.svg" class="header__nav-profile-img" alt="иконка профиля">
-        </a>
-        <a href="#" class="header__nav-link header__nav-cart">Корзина
-          <img src="icons/cart_icon.svg" class="header__nav-cart-img" alt="иконка корзины">
-        </a>
-        <a href="#" class="header__nav-link header__nav-favorite">Избранное
-          <img src="icons/favorite_icon.svg" class="header__nav-favorite-img" alt="иконка избранное">
-        </a>
-      </nav>
+          <a href="#" class="header__menu">Меню
+          </a>
+          <form class="header__search">
+            <input type="text" class="header__search-input" placeholder="Я ищу...">
+            <button type="submit" class="header__search-button">
+              <img src="icons/search_icon.png" class="header__search-button-img">
+            </button>
+          </form>
+          <a href="#" class="header__link">
+            <figure class="header__link-figure">
+              <img src="icons/profile_icon.svg" class="header__link-img" alt="иконка профиля">
+              <figcaption class="header__link-figcaption">Профиль
+              </figcaption>
+            </figure>
+          </a>
+          <a href="#" class="header__link">
+            <figure class="header__link-figure">
+              <img src="icons/cart_icon.svg" class="header__link-img" alt="иконка корзины">
+              <figcaption class="header__link-figcaption">Корзина
+              </figcaption>
+            </figure>
+          </a>
+          <a href="#" class="header__link">
+            <figure class="header__link-figure">
+              <img src="icons/favorite_icon.svg" class="header__link-img" alt="иконка избранное">
+              <figcaption class="header__link-figcaption">Избранное
+              </figcaption>
+            </figure>
+          </a>
+      </div>
     </div>
   </header>
-  <main>
+  <main class="main">
+    <section class="content">
+      <div class="container">
+        <div class="content__grid">
+          <div class="content__card banner">banner</div>
+            <img src="images/banner.jpg" class="content__card-img">
+          <div class="content__card book">book</div>
+          <div class="content__card clock">clock</div>
+          <div class="content__card red-shoe">red</div>
+          <div class="content__card shoes">shoes</div>
+          <div class="content__card gift">gift</div>
+          <div class="content__card december">december</div>
+          <div class="content__card year">year</div>
+          <div class="content__card clean">clean</div>
+          <div class="content__card ball">ball</div>
+          <div class="content__card girl">girl</div>          
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="footer">
   </footer>
