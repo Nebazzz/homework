@@ -1,19 +1,67 @@
+.content {
+  padding-top: 90px;
+}
+
 .content__grid {
   display: grid;
   gap: 60px;
-  grid-template-columns: repeat(6, 245px);
-  grid-template-rows: repeat(6, 245px);
-  grid-template-areas: 
-  "banner banner banner banner banner banner"
-  "banner banner banner banner banner banner"
-  "book clock shoes shoes gift gift"
-  "red-shoe red-shoe shoes shoes december december"
-  "year year year year girl clean"
-  "year1 year year year girl ball";
+  grid-template-columns: repeat(4, 245px);
+  grid-template-rows: repeat(4, 245px);
 }
 
-.banner {
-  grid-area: banner;
+.content__banner {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 480px;
+  margin-bottom: 60px;
+  border-radius: 20px;
+}
+
+.content__banner-text {
+  display: inline-block;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 130%;
+  padding: 145px 0 0 112px;
+  margin-bottom: 100px;
+}
+
+.content__banner-countdown {
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+  margin-bottom: 5px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+}
+
+.countdown-item {
+  margin-right: 30px;
+  text-align: center;
+}
+
+.countdown-item:last-child {
+  margin-right: 0;
+  text-align: center;
+}
+
+.countdown-item span {
+  display: inline-block;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.label {
+  display: inline-block;
+  font-size: 32px;
 }
 
 .book {
