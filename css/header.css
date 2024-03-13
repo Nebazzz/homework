@@ -1,3 +1,7 @@
+.header {
+  padding-top: 27px;
+}
+
 .header__grid {
   display: grid;
   grid-template-columns: 
