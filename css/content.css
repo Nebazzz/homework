@@ -233,6 +233,7 @@
   color: #F91155;
   font-size: 40px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .clean {
@@ -447,8 +448,8 @@
   
   .content__grid {
     gap: 20px;
-    grid-template-columns: repeat(4, 140px);
-    grid-template-rows: repeat(6, 140px);
+    grid-template-columns: repeat(2, 140px) repeat(5, 60px);
+    grid-template-rows: repeat(8, 60px) 380px;
   }
   
   .content__banner {
@@ -498,6 +499,7 @@
   
   .book {
     height: 140px;
+    grid-row: 1 / 3;
   }
   
   .content__card-book {
@@ -511,73 +513,75 @@
   
   .clock {
     height: 140px;
-    /* padding: 15px 10px 10px 5px; */
+    grid-row: 1 / 3;
   }
   
   .content__card-clock {
     align-self: flex-start;
-    width: 110px;
-    font-size: 24px;
+    font-size: 16px;
   }
   
   .red-shoe {
-    height: 217px;
+    height: 140px;
     padding: 10px;
+    grid-row: 3 / 5;
   }
   
   .shoes {
-    height: 458px;
-    padding: 0 22px 22px 22px;
+    height: 380px;
+    width: 380px;
+    padding: 0 10px 10px 10px;
+    grid-row: 1 / 5;
   }
   
   .content__card-shoes {
-    font-size: 30px;
-    width: 414px;
-    height: 146px;
-    padding: 29px 25px;
+    font-size: 16px;
+    width: 360px;
+    height: 61px;
+    padding: 16px 28px;
   }
   
   .content__card-shoes b {
-    font-size: 40px;
+    font-size: 26px;
+    line-height: 120%;
   }
   
   .gift {
-    height: 217px;
+    height: 140px;
     padding: 0 0 20px 20px;
-    grid-column: 1 / 3;
-    grid-row: 3 / 4;
-  }
-  
-  .content__card-gift {
-    width: 260px;
-    font-size: 30px;
-  }
-  
-  .december {
-    height: 217px;
-    padding: 0 10px 10px 20px;
-    grid-column: 1 / 3;
-    grid-row: 4 / 5;
-    align-content: flex-end;
-    flex-wrap: wrap;
-  }
-  
-  .content__card-december {
-    font-size: 30px;
-  }
-  
-  .year {
-    height: 418px;
-    padding: 0 0 39px 30px;
-    grid-column: 1 / 5;
     grid-row: 5 / 7;
   }
   
+  .content__card-gift {
+    width: 140px;
+    font-size: 16px;
+    line-height: 120%;
+  }
+  
+  .december {
+    height: 140px;
+    padding: 0 0 20px 20px;
+    column-gap: 71px;
+    grid-row: 7 / 9;
+  }
+  
+  .content__card-december {
+    font-size: 16px;
+    line-height: 120%;
+  }
+  
+  .year {
+    height: 337px;
+    width: 700px;
+    padding: 0 0 26px 26px;
+    grid-row: 9 / 10;
+  }
+  
   .content__card-year {
-    width: 513px;
-    height: 83px;
-    border-radius: 16px;
-    font-size: 30px;
+    width: 347px;
+    height: 68px;
+    border-radius: 12px;
+    font-size: 20px;
   }
   
   .clean {
@@ -598,9 +602,11 @@
   }
   
   .girl {
-    height: 458px;
+    height: 220px;
     padding: 0 10px 10px 0;
-    grid-column: 3 / 4;
-    grid-row: 3 / 5;
+    grid-column: 3 / 5;
+    grid-row: 6 / 9;
+    /* background-position: 50% 5%; */
+    background-size: 50%;
   }
 }
